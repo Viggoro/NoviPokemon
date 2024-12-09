@@ -3,9 +3,9 @@ package src;
 public class Main {
     public static void main(String[] args) {
 
-       Pokemon pokemon = new Pokemon("Bulbasaur", 1, 100, 10, new GrassType());
+       Pokemon pokemon = new Pokemon("Bulbasaur", 1, 110, 10, new GrassType());
 
-       Pokemon pokemon1 = new Pokemon("Charmander", 1, 100, 10, new FireType());
+       Pokemon pokemon1 = new Pokemon("Charmander", 1, 110, 10, new FireType());
 
        Pokemon pokemon2 = new Pokemon("Pikachu", 1, 110, 10, new ElectricType());
 
