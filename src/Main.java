@@ -7,7 +7,7 @@ public class Main {
 
        Pokemon pokemon1 = new Pokemon("Charmander", 1, 100, 10, new FireType());
 
-       Pokemon pokemon2 = new Pokemon("Pikachu", 1, 100, 10, new ElectricType());
+       Pokemon pokemon2 = new Pokemon("Pikachu", 1, 110, 10, new ElectricType());
 
        Pokemon pokemon3 = new Pokemon("Piplup", 1, 110, 10, new WaterType());
 
