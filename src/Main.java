@@ -9,7 +9,7 @@ public class Main {
 
        Pokemon pokemon2 = new Pokemon("Pikachu", 1, 100, 10, new ElectricType());
 
-       Pokemon pokemon3 = new Pokemon("Piplup", 1, 100, 10, new WaterType());
+       Pokemon pokemon3 = new Pokemon("Piplup", 1, 110, 10, new WaterType());
 
        pokemon.printPokemon();
        pokemon.speaks();

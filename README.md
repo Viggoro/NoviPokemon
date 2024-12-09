@@ -40,8 +40,8 @@ De applicatie moet voldoen aan het volgende:
 - 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2`private` variabelen, 1 constructor, 2 methodes, 1 `override` methode, 2 getters en 2
   setters bevatten. _Tip_: wil je wat inspiratie bij het bedenken van variabelen en methodes op het gebied van Pokèmon? Bekijk de
   inspiratie-sectie hieronder eens.
-- Een `main`-klasse met een `main`-methode;
-- In de `main`-methode worden vier verschillende Pokèmon-objecten van verschillende klassen geïnstantieerd- en gedeclareerd. Met behulp van deze objectnamen kunnen de methodes van de verschillende klassen worden uitgevoerd;
+- Een `src.main`-klasse met een `src.main`-methode;
+- In de `src.main`-methode worden vier verschillende Pokèmon-objecten van verschillende klassen geïnstantieerd- en gedeclareerd. Met behulp van deze objectnamen kunnen de methodes van de verschillende klassen worden uitgevoerd;
 
 Deze methodes mogen `void` teruggeven en een `system.out.println` uitvoeren.
 
@@ -91,8 +91,8 @@ Pokèmon kunnen ook ontzettend veel verschillende acties uitvoeren. Zo kun je de
 
 ## Stappenplan
 Het is uitdagender om jouw eigen stappenplan te maken, maar als je niet weet waar je wil beginnen kun je dit stappenplan volgen.
-1. Maak een `main`-klasse aan in de `src`-map.
-2. Maak vervolgens binnen de `main`-klasse een `main`-methode aan. Anders kun je de applicatie immers niet draaien!
+1. Maak een `src.main`-klasse aan in de `src`-map.
+2. Maak vervolgens binnen de `src.main`-klasse een `src.main`-methode aan. Anders kun je de applicatie immers niet draaien!
 3. Maak een Pokèmon Super klasse aan en zorg ervoor dat deze voldoet aan de gestelde randvoorwaarden (
    zie: [randvoorwaarden](#randvoorwaarden))
 5. Maak de volgende subklassen aan en laat deze voldoen aan de gestelde randvoorwaarden (
@@ -103,9 +103,9 @@ Het is uitdagender om jouw eigen stappenplan te maken, maar als je niet weet waa
 - `GrassPokemon`
 - `ElectricPokemon`
 
-5. Instantieer in de `main` methode jouw 4 verschillende Pokèmon met de verschillende attributen.
+5. Instantieer in de `src.main` methode jouw 4 verschillende Pokèmon met de verschillende attributen.
 
-6. Voer in de `main methode` verschillende methodes uit van verschillende `Pokemons`, uit zowel de `subklassen` als uit
+6. Voer in de `src.main methode` verschillende methodes uit van verschillende `Pokemons`, uit zowel de `subklassen` als uit
    de `super klasse`.
 
 ## Bonusopdrachten
